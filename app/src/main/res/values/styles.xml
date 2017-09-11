@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/action_bar_style</item>
+    </style>
+
+    <style name="action_bar_style" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#ff0000</item>
+    </style>
+
+    <style name="style1" >
+        <item name="android:background">#000</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">#aa1390</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+
+    <style name="style2" >
+        <item name="android:background">#600000</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+        <item name="android:textColor">#ff1313</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+</resources>
